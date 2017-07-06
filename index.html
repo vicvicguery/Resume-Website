@@ -1,73 +1,243 @@
 <!DOCTYPE html>
+<html lang="en-us">
 <html>
 <head>
-  <title>Victor Guery</title>
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+	body{
+	background-color: #718d96;
+	margin:0;
+	}
+	
+	ul#navbar{
+   	list-style-type: none;
+    	margin: 0;
+    	padding: 0;
+    	overflow: hidden;
+    	background-color: #333;
+    	position: fixed;
+    	top: 0;
+    	width: 100%;
+	}
+
+	li {
+    	float: left;
+	}
+
+	li a {
+    	display: block;
+    	color: white;
+    	text-align: center;
+    	padding: 14px 16px;
+    	text-decoration: none;
+	}
+
+	h1{
+        font-family: "Times New Roman", Times, serif; 
+	font-size: px;     
+        }
+
+        h2{
+        font-family: "Times New Roman", Times, serif;
+	font-size: px;
+        }
+
+	h3{
+	font-family: "Times New Roman", Times, serif;
+	}
+
+        p{
+        font-family: "Times New Roman", Times, serif;
+	font-size: px;
+        }
+
+	#mainContainer{
+        width: 800px;
+        border: px;
+        padding: 15px;
+        margin: auto;
+	background-color: #cfd8da;
+	border-style: solid;
+        }
+
+	img{
+	display: block;
+	max-width:400px;
+	max-height:300px;
+	width: auto;
+	height: auto;
+	background-color: #cfd8da;
+	border-style: solid;
+        }
+	
+	.fa {
+	padding: 10px;
+	font-size: 15px;
+	width: 15px;
+	text-align: center;
+  	text-decoration: none;
+  	margin: 10px 2px;
+  	border-radius: 50%;
+	}
+
+	.fa:hover {
+  	opacity: 0.7;
+	}
+
+	.fa-facebook {
+  	background: #3B5998;
+  	color: white;
+	}
+
+	.fa-twitter {
+ 	background: #55ACEE;
+  	color: white;
+	}
+
+	.fa-linkedin {
+  	background: #007bb5;
+  	color: white;
+	}
+
+	.fa-instagram {
+  	background: #125688;
+  	color: white;
+	}
+	
+	.fa-snapchat-ghost {
+  	background: #fffc00;
+  	color: white;
+  	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	}
+
+	.fa-skype {
+  	background: #00aff0;
+  	color: white;
+	}
+
+	#xpcontainer{
+	width: 800px;
+        border: px;
+        padding: 15px;
+        margin: auto;
+	background-color: #cfd8da;
+	border-style: solid;
+	height:450px
+        }
+
+	#educontainer{
+	width: 800px;
+        border: px;
+        padding: 15px;
+        margin: auto;
+	background-color: #cfd8da;
+	border-style: solid;
+	}
+
+	#skillcontainer{
+	width: 800px;
+        border: px;
+        padding: 15px;
+        margin: auto;
+	background-color: #cfd8da;
+	border-style: solid;
+	}
+
+	#footercontainer{
+	width: 800px;
+        border: px;
+        padding: 15px;
+        margin: auto;
+	float: ;
+	background-color: #cfd8da;
+	border-style: solid;
+	}
+        
+</style>
 </head>
 
 <body>
-
-<div id="backgroundimage">
-  <body background="background.jpg">
-</div>
-  
+	<ul id="navbar">
+  	<li><a href="#home">Home</a></li>
+  	<li><a href="#news">News</a></li>
+  	<li><a href="#contact">Contact</a></li>
+  	<li><a href="#about">About</a></li>
+	</ul>
+	
+	<div style="padding:10px;margin-top:30px;height:1500px;">
 
 <div id="mainContainer">
-  <div class="container">
-      <h1>Victor Guery</h1>
-      <p class="lead">Social Media Marketer</p>
-      <img src="Profile.jpg">  
-      <li><a href="https://www.linkedin.com/in/victorguery/">LinkedIn</a></li>
-        <li><a href="Resume.pdf" target="_blank">Resume</a></li>
-  </div>
+<div class="container">
+	<h1>Victor Guery</h1>
+	<p class="lead">Social Media Marketer</p>
+	<img src="Profile.jpg">  
+	
+	<a href="Resume.pdf" target="_blank">Resume</a>
+	<a href="https://www.facebook.com/vicvicguery" class="fa fa-facebook"></a>
+	<a href="https://twitter.com/GueryVictor" class="fa fa-twitter"></a>
+	<a href="https://www.linkedin.com/in/victorguery/" class="fa fa-linkedin"></a>	
+	<a href="https://www.instagram.com/vicvicguery/?hl=en"" class="fa fa-instagram"></a>
+	<a href="#" class="fa fa-snapchat-ghost"></a>
+	<a href="#" class="fa fa-skype"></a>
+	<h2>About Me:</h2>
+	<p>I am currently in my second year at the John Molson School of Business majoring in Marketing with a minor in Data Intelligence. I aspire to work for an ambitious company who strives to reshape marketing with innovative technologies and utilize my strong analytical, technical, and interpersonal skills to promote sustainability in the business world.</p>
+</div>
+</div> 
+
+<!--ask Frank for help with formatting the text-->
+<div id="xpcontainer">
+<div class="container">
+	<h2>Experience</h2>
+	<h3>Social Media Undergraduate Researcher</h3>
+	<p>John Molson School of Business at Concordia University Montreal, QC Summer 2017</p>
+	<ul>
+	<li>Worked independently using Twitter analytics with R to analyze tweets for implicit motives.</li>
+	<li>Assisting in the coding of the implicit motives for the collected data which is part of a dissertation research project.</li>
+	</ul>
+	<h3>Cutco Sales Representative</h3>
+	<p>Vector Marketing Wakefield, MA Summmer 2015</p>
+	<ul>
+	<li>Prospected via warm calling to find potential customers interested in high-end luxurious products to maximize company’s revenues.</li>
+	<li>Performed eight 45 minute demonstrations to show customers the company’s products.</li>
+	<li>Sold approximately $4,000 dollars worth of CUTCO knives in one week.</li>
+	</ul>
+	<h3>Dining Room Attendant</h3>
+	<p>Waterford Hotel Group Andover, MA Summer 2017</p>
+	<ul>
+	<li>Collaborated with staff to methodically serve roughly 80 guests per shift.</li>
+	<li>Adapted to unforeseen changes in scheduling and excel during peak service hours.</li>
+	<li>Provided guests with luxurious accommodations and interact with business executives.</li>
+	<li>Strategized with management and staff to execute organized events of more than 300 guest.</li>
+	</ul>
+</div>
 </div>
 
-<div id="contentcontainer">
-  <div class="container">
-      <h2>About Me:</h2>
-      <p>I am currently in my second year at the John Molson School of Business majoring in Marketing with a minor in Data Intelligence. I aspire to work for an ambitious company who strives to reshape marketing with innovative technologies and utilize my strong analytical, technical, and interpersonal skills to promote sustainability in the business world.</p>
-  </div>
-</div>  
+<div id="educontainer">
+<div class="container">
+	<h2>Education<h2>
+	<h3>John Molson School of Business at Concordia University</h3>
+	<a href="http://www.concordia.ca/" target="_blank">Concordia</a>
+	<p>Bachelor of Commerce (BComm) Major: Marketing Minor: Data Intelligence</p>
+	<h3>Andover High School</h3>
+	<h3>Lycee Saint Joseph</h3>
+</div>
+</div>
 
-<style type="text/css">
-      #mainContainer{
-        background-color: #d5d5d5;
-        width: 800px;
-        border: 25px;
-        padding: 25px;
-        margin: auto;
-      }
-      #contentcontainer {
-        background-color: #d5d5d5;         
-        width: 800px;
-        border: 25px;
-        padding: 25px;
-        margin: auto;
-      }
-      /* set up a nice looking background image
-       #backgroundimage{
-        border: 1px solid #ddd;
-        border-radius: 4px;
-        padding: 5px;
-        width: 150px;
-       }
-       */
-        img{
-          display: block;
-          max-width:400px;
-          max-height:300px;
-          width: auto;
-          height: auto;
-              }
-        h1  {
-              
-               }
-        h2  {
-          font-size: 24px;
-               }
-        p  {
-          font-size: 22px;
-                }
-</style>
+<div id="skillcontainer">
+<div class="container">
+	<h2>Skills</h2>
+	<p>Website Development: HTML, CSS, Jave Script</p>
+	<p>Abode Products: Photoshop, InDesign, Illustator</p>
+	<p>Statistical Software: SPSS, R</p>
+</div>
+</div>
+
+<div id="footercontainer">
+<div class="container">
+	<footer>Copyright @copy vicvicguery.com</footer>
+</div>
+</div>
+
+
 </body>
 </html>
